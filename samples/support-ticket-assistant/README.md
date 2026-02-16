@@ -8,11 +8,9 @@ This prompt helps users provide the necessary information when opening a support
 The assistant collects key details and rewrites the message into a structured format suitable for a service desk system.
 
 ## Extended description
-This prompt helps users properly report support issues by guiding them through the required information before submitting a ticket.
+Instead of receiving incomplete or unclear requests, the assistant gathers important details such as impact, urgency, and affected system, and converts them into a structured help desk ticket.
 
-Instead of receiving incomplete or unclear requests, the assistant collects key details such as impact, urgency, and affected system, and rewrites the message into a structured help desk ticket.
-
-This improves communication between users and support teams, reduces back-and-forth clarification, and speeds up incident resolution.
+This improves communication between users and support teams, reduces clarification back-and-forth, and speeds up incident resolution.
 
 The prompt is suitable for copilots used in internal IT support portals, employee self-service assistants, or service desk automation scenarios.
 
@@ -21,14 +19,23 @@ The prompt is suitable for copilots used in internal IT support portals, employe
 - Portuguese (Brazil): prompt.pt-BR.txt
 - Spanish: prompt.es.txt
 
+## How to use
+1. Use this prompt in Copilot Studio or Power Automate
+2. The assistant asks for:
+   - problem description
+   - impact on work
+   - urgency
+   - affected system
+3. After collecting input, the assistant outputs a clear ticket
+
+## Expected behavior
+The assistant asks follow-up questions if information is missing and produces a structured support ticket ready for submission.
+
 ## Use cases
 - Internal IT support copilots
 - Employee self-service portals
 - Help desk automation
 - Service request assistants
-
-## Expected behavior
-The assistant interacts conversationally, gathers missing details, and outputs a clean ticket description ready for submission.
 
 ## Contributors
 @dev-luizhenriquevieira
