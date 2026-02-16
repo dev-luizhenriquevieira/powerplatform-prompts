@@ -15,9 +15,9 @@ This improves communication between users and support teams, reduces clarificati
 The prompt is suitable for copilots used in internal IT support portals, employee self-service assistants, or service desk automation scenarios.
 
 ## Prompt languages
-- English: prompt.en.txt
-- Portuguese (Brazil): prompt.pt-BR.txt
-- Spanish: prompt.es.txt
+- English: `prompt.en.txt`
+- Portuguese (Brazil): `prompt.pt-BR.txt`
+- Spanish: `prompt.es.txt`
 
 ## How to use
 1. Use this prompt in Copilot Studio or Power Automate
