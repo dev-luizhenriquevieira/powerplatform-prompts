@@ -32,6 +32,3 @@ The assistant interacts conversationally, gathers missing details, and outputs a
 
 ## Contributors
 @dev-luizhenriquevieira
-
-## Contributors
-@SEU_USUARIO
